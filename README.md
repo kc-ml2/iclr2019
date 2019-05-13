@@ -20,6 +20,17 @@
     * Kronecker, MMSB, B-A
 
 ## Tue, May 07
+* Learning Mixed-Curvature Representations in Product Spaces
+  * https://openreview.net/forum?id=HJxeWnCcF7
+  * ![poster](photos/20190507_125520.jpg)
+* PyTorch Expo
+  * ![slide_2019-05-07_13.30.36](photos/2019-05-07%2013.30.36.jpg)
+  * PyTorch BigGraph
+    * ![slide_2019-05-07_13.42.17](photos/2019-05-07%2013.42.17.jpg)
+  * BoTorch
+    * Highly specialized for Bayesian optimization.
+    * Not for Bayesian inference therefore no altervative for TFP or Pyro.
+    * 1st class support for GPyTorch models.
 
 ## Wed, May 08
 ### RL
