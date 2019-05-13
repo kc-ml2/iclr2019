@@ -33,6 +33,15 @@
     * 1st class support for GPyTorch models.
 
 ## Wed, May 08
+* Deterministic Variational Inference for Robust Bayesian Neural Networks
+  * deterministic VI + empirical ELBO
+    * What is empirical ELBO?
+* FFJORD
+  * uses neural ODE
+  * continuous instead of discrete
+  * can evolve a unimodal Gaussian into a multimodal complex distribution.
+    * But not by a convolution with a static kernel, instead uses time evolution.
+  * https://github.com/rtqichen/ffjord
 ### RL
 
 ## Thu, May 09
