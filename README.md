@@ -19,6 +19,38 @@
   * Graph generation baselines
     * Kronecker, MMSB, B-A
 
+### SPIRL workshop
+*Model-agnostic meta learning*
+* Evolved policy gradients
+* Simulation using learned model for enhanced efficiency
+* Few-shot RL
+* Model-based RL
+  * MB-MPO (model-based meta-policy optimizations
+    * Ensemble of learned simulated environments
+#### PEARL
+Learn task as content in latent space Z and use the term as condition to policy 
+Model z-space variationally using information bottleneck
+Compared to ProMP, MAML, RL2
+* Why used information bottleneck for modeling z-space?
+#### Meta-reinforcement learning
+* Chris burges  (unsupervised object …)
+#### Self-supervised object-centric representations for RL
+* Learn a good representation 
+* Transporter: learning object keypoints
+  * Use parallel architecture with cnn and PointNet
+* Object instance discovery
+#### Visual Entity Async Q agent Ionescu et al. 2018
+* (?) Wayne, Hunag, …, Lilicrap 2018
+* PETES - Chua, Calandra, …, Levine 2018
+* (PlaNet)Latent dynamics for pixels - Hafner, Lillicrap…, Davidson 2018
+#### Pannel Discussion
+* Real world data vs generated simulation data
+  * Which is better?
+  * We use real world data because it has enough variation and more accurate. Generation itself is a difficult problem
+* Model free vs model based model
+  * What is the difference?
+  * There is a big gray zone in between 
+
 ## Tue, May 07
 * Learning Mixed-Curvature Representations in Product Spaces
   * https://openreview.net/forum?id=HJxeWnCcF7
